@@ -1,0 +1,69 @@
+.the-best{
+    background: #FFFFFF;
+    display: flex;
+}
+.image-page{
+    margin-top: 50px;
+    margin-right: 85px;
+}
+.image-page img{
+    width: 115%;
+}
+.area-conteudo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 670px;
+}
+.area-conteudo h1{
+    text-align: left;
+    padding: 3% 0 1%;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.06px;
+    color: rgb(29, 22, 77);
+    width: 430px;
+}
+.area-conteudo p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.87px;
+    line-height: 1.68;
+    color: rgb(180, 180, 180);
+    margin: 16px 0px 30px;
+}
+.button-the-best{
+    margin: 16px 0px 0px;
+    padding: 16px 15px;
+    border: #BADC58;
+    background: #BADC58;
+    color: white;
+    width: 130px;
+}
+@media only screen and (min-width:360px) and (max-width: 768px) {
+    .image-page{
+        display: none;
+    }
+    .area-conteudo{
+        padding: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .area-conteudo h1{
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+    }
+    .button-the-best{
+        margin-bottom: 10%;
+    }
+    .area-conteudo p{
+        font-size: 15px;
+    }
+    
+  }

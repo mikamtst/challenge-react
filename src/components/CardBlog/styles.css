@@ -1,0 +1,35 @@
+.conteudo h1{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.06px;
+    color: rgb(29, 22, 77);
+    width: 85%;
+    padding-top: 5%;
+}
+.conteudo{
+    height: auto;
+    width: 100%;
+    margin-left: 20px;
+}
+.creator{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.creator p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.87px;
+    line-height: 1.68;
+    color: rgb(180, 180, 180);
+    margin: 0;
+    padding-top: 11px;
+}
+.user{
+    border-radius: 100%;
+    width: 50px;
+    height: 20%;
+    margin-right: 10px;
+}

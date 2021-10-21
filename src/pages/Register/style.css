@@ -1,0 +1,189 @@
+.cont-register{
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    background: #ffff;
+    justify-content: flex-end;
+}
+.area-cadastro{
+    width: 60%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.size{
+    width: 100%;
+    margin-top: 50px;
+}
+.box-cadastro {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 60% ;
+    min-height: 100%;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: rgb(29 22 77 / 20%) 0px 0px 20px 5px;
+}
+.titulo-cadastro h1{
+    font-size: 2rem !important;
+    margin-top: 50px !important;
+    color: rgb(29, 22, 77);
+    white-space: nowrap;
+    text-align: center;
+}
+.titulo-cadastro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ form{
+    width: 100%;
+    display: flex;
+    padding: 10% 15% 0 15%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.conteudo-registro input{
+    border: none;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    outline: none;
+}
+.conteudo-registro :focus-visible{
+    color: black;
+}
+.dados-cep input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border: 1px solid rgb(45, 53, 97);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+.dados-cep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-registro{
+    flex: 1 0;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15px 15px 0 15px;
+}
+.container-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(45, 53, 97);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon-alert{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #e34141;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e34141 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext, .tooltip:active .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  .button-register{
+      width: 30%;
+  }
+  .area-button-register{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15%;
+  }
+  .area-button-register input{
+    margin: 16px 0px 0px;
+    padding: 16px 15px;
+    border: #BADC58;
+    border-radius: 5px;
+    background: #BADC58;
+    color: white;
+    width: 130px;
+}
+.button-register:hover{
+    border: #8ba342;
+    background: #8ba342;
+}
+.icon-input{
+    margin-left: 10px;  
+    margin-right: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .cont-register {
+        padding-top: 0;
+        margin-bottom: 30px;
+        display: flex;
+        width: 100%;
+        background: #ffff;
+        justify-content: center;
+    }
+    .area-cadastro {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-cadastro {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        width: 90%;
+        min-height: 100%;
+        border-radius: 8px;
+        margin: 10px;
+        box-shadow: rgb(29 22 77 / 20%) 0px 0px 20px 5px;
+    }
+    .cont-register{
+        justify-content: center;
+    }
+    .img-register{
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fafafc;
+}
+.blog h1{
+    text-align: center;
+    padding: 2% 0 1%;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.06px;
+    color: rgb(29, 22, 77);
+    width: 100%;
+}
+.blog p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.87px;
+    line-height: 1.68;
+    color: rgb(180, 180, 180);
+    margin: 0px 0px 30px;
+}
+
