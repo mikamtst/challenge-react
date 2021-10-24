@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', url:'https://github.com/mikamtst/healthy-food.git'
+                git branch: 'main', url:'https://github.com/mikamtst/challenge-react.git'
                 sh "yarn build"
             }
         }
